@@ -1,0 +1,10 @@
+<h3>Компьютер уже что-то задумал. Играем!</h3>
+<p *ngFor="let item of guessMsg">{{ item }}</p>
+<input type="text" [(ngModel)]="value" style="margin-right: 10px;"/>
+<button (click)="guess(value)">Сделать ход</button>
+<br />
+<div *ngIf="isError()" class="error">
+    {{errorMsg}}
+</div>
+<br />
+<button (click)="reset()">Новая игра</button>

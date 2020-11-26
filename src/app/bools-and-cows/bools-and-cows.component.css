@@ -1,0 +1,9 @@
+.error {
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 0.5em 0em;
+  background-color: rgb(248, 215, 218);
+  color: rgb(114, 28, 36);
+  visibility: visible;
+  max-width: 300px;
+}
